@@ -1,4 +1,7 @@
 Assessment of Keri Studio
 # For running this project 
 # you should install  urllib
-# run this program and enter any location you can easily get lat and lng 
+# run this program 
+# run the command like 
+>python geocode.py surat
+# out would give lat and lng

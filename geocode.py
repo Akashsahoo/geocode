@@ -1,5 +1,5 @@
-import urllib,json,urllib.request      #for import urllib.request because some times error
-loc=input('enter a any address for know the geocode location :\n')     # for getting input in loc variable
+import urllib,json,urllib.request,sys      #for import urllib.request because some times error
+loc=sys.argv[1]     # for getting input via command prompt  in loc variable , list of argv and second would be our location 
 encode_loc=urllib.parse.quote(loc)     # encoded string 
 url = "https://maps.googleapis.com/maps/api/geocode/json?address="+encode_loc  
 #print(url)
